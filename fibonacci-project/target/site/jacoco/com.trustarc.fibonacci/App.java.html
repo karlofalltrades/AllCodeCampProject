@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>App.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">fibonacci-project</a> &gt; <a href="index.source.html" class="el_package">com.trustarc.fibonacci</a> &gt; <span class="el_source">App.java</span></div><h1>App.java</h1><pre class="source lang-java linenums">package com.trustarc.fibonacci;
+
+/**
+ * Hello world!
+ *
+ */
+<span class="fc" id="L7">public class App </span>
+{
+<span class="fc" id="L9">	static int n1=0,n2=1,n3=0;</span>
+	static void printFibonacci(int count) {
+<span class="fc bfc" id="L11" title="All 2 branches covered.">		if(count&gt;0) {</span>
+<span class="fc" id="L12">			n3 = n1+n2;</span>
+<span class="fc" id="L13">			n1 = n2;</span>
+<span class="fc" id="L14">			n2 = n3;</span>
+<span class="fc" id="L15">			System.out.print(&quot; &quot;+n3);</span>
+<span class="fc" id="L16">			printFibonacci(count-1);</span>
+		}
+<span class="fc" id="L18">	}</span>
+    public static void main( String[] args )
+    {
+<span class="nc" id="L21">    	int count=0;</span>
+<span class="nc" id="L22">    	java.util.Scanner sc = new java.util.Scanner(System.in);</span>
+<span class="nc" id="L23">    	System.out.println( &quot;Enter Range:&quot;);</span>
+<span class="nc bnc" id="L24" title="All 2 branches missed.">    	while(!sc.hasNextInt()) {</span>
+<span class="nc" id="L25">    		sc.nextLine();</span>
+<span class="nc" id="L26">    		System.out.println( &quot;Please enter only numbers:&quot;);</span>
+    	}
+<span class="nc" id="L28">    	count = sc.nextInt();</span>
+<span class="nc" id="L29">    	System.out.print(n1+&quot; &quot;+n2);</span>
+<span class="nc" id="L30">    	printFibonacci(count-2);</span>
+//    	for(int i = 0; i &lt; count; i++) {
+//    		n3 = n1+n2;
+//			n1 = n2;
+//			n2 = n3;
+//			System.out.print(&quot; &quot;+n3);
+//    	}
+<span class="nc" id="L37">    	sc.close();</span>
+<span class="nc" id="L38">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
