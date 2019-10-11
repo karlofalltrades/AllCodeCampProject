@@ -1,0 +1,11 @@
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/model/Todos.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/SpringBootDemoApplication.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/controller/TodosController.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/target/generated-sources/java/com/techprimers/model/QUser.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/controller/UsersController.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/target/generated-sources/java/com/techprimers/model/QTodos.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/repository/TodoJpaRepository.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/service/TodosService.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/model/User.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/service/UserService.java
+/home/it-admin-lenovo01/Downloads/spring-data-rest-jpa-example-master/src/main/java/com/techprimers/repository/UserJpaRespository.java

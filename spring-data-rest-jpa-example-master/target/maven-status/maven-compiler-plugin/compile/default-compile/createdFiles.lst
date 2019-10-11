@@ -1,0 +1,11 @@
+com/techprimers/repository/UserJpaRespository.class
+com/techprimers/model/QUser.class
+com/techprimers/model/Todos.class
+com/techprimers/SpringBootDemoApplication.class
+com/techprimers/model/QTodos.class
+com/techprimers/repository/TodoJpaRepository.class
+com/techprimers/service/UserService.class
+com/techprimers/controller/UsersController.class
+com/techprimers/service/TodosService.class
+com/techprimers/model/User.class
+com/techprimers/controller/TodosController.class
